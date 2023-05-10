@@ -1,0 +1,46 @@
+.card {
+	border: 3px solid black;
+	box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.078);
+	border-radius: 10%;
+	margin: 20px auto;
+	width: 250px;
+	overflow: hidden;
+	background-color: rgba(241, 27, 27, 0.881);
+	margin:10px  10px;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	transition: 0.1s;
+}
+
+.card img {
+		overflow: hidden;
+	padding: 10px;
+	height: 140px;
+	width: 140px;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.card-body {
+	padding: 20px;
+	font-size: 1em;
+	border-top: solid rgb(0, 0, 0) 2.8px;
+	background-color: rgb(235, 235, 235);
+	
+}
+
+.card-title {
+	text-transform: capitalize;
+	font-size: 1.1rem;
+	padding-bottom: 5px;
+	color: rgb(2, 145, 234);
+	
+	
+}
+
+.list-group-item {
+	text-transform: capitalize;
+		list-style-type: none;
+}
